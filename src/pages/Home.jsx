@@ -18,14 +18,6 @@ const Home = () => {
         setFilteredItems(reorderedItems);
     };
 
-    useEffect(() => {
-        // Simulate loading data (you can replace this with actual API calls)
-        setIsLoading(true);
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 1000);
-    }, []);
-
     const handleSearchInputChange = (event) => {
         const { value } = event.target;
         setSearchInput(value);
