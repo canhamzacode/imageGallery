@@ -34,11 +34,11 @@ const NavBar = () => {
                         Login
                     </p>
                 </Link>}
-                {!user && <Link to="/signup">
+                {/* {!user && <Link to="/signup">
                     <p className='text-lg font-medium bg-black/20 px-[20px] py-[5px] rounded-md'>
                         Sign Up
                     </p>
-                </Link>}
+                </Link>} */}
                 {user && <p className='text-lg font-medium bg-black/20 px-[20px] py-[5px] rounded-md capitalize'>
                     {user?.username}
                 </p>}
